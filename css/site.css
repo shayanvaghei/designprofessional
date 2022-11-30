@@ -1,0 +1,89 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.font {
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration:underline;
+}
+.link:checked{
+    color:red;
+}
+
+.bodyDiv {
+    height: auto;
+}
+
+.insideBodyDive {
+    height: auto;
+    padding: 10px;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.insideBodyDivHeaders {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    color: #210c11;
+}
+
+.navbarIcons {
+    margin-right: 20px;
+}
+
+    .navbarIcons a:hover {
+        background-color: #757473;
+        border-radius: 5px;
+    }
+
+.imgages {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    border: 1px solid #85817b;
+}
+
+
+.btnServices {
+    color: #2e2d2d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.myOwnHeaderCard {
+    background-color: #e8e8e8;
+}
+
+.mainImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contactInformation {
+    text-align: left;
+    font-size: 20px;
+    font-family: "Noto Sans TC", sans-serif;
+}
