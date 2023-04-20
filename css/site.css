@@ -87,3 +87,8 @@ body {
     font-size: 20px;
     font-family: "Noto Sans TC", sans-serif;
 }
+
+.homestarLogo {
+    width: 250px; 
+    height: 100px;
+}
